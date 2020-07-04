@@ -67,8 +67,8 @@ public class Game {
 		do {
 			// se giocatore propietario di albergo / casa  sulla posizione corrente--> gli viene dato una retribuzione
 			if (giocatore.isPropietarioAlbergo()) {
-				System.out.println(giocatore.getCompratoAlbergo());
-				System.out.println(posizioneCasella);
+				
+			
 				
 				if (giocatore.getCompratoAlbergo().equals(posizioneCasella)) {
 
@@ -92,7 +92,7 @@ public class Game {
 				  int estrazione1 = Dado.TiraDado(); int estrazione2 = Dado.TiraDado();
 				 
 
-				System.out.println("è uscito il numero " + estrazione1 + "\t" + estrazione2);
+				System.out.println("Ã¨ uscito il numero " + estrazione1 + "\t" + estrazione2);
 
 				// controllo se dopo 3 tiri consecutivi giocatore vai in prigione
 				if (estrazione1 == estrazione2) {
@@ -237,7 +237,7 @@ public class Game {
 					int estrazione3 = Dado.TiraDado();
 					int estrazione4 = Dado.TiraDado();
 
-					System.out.println("è uscito il numero " + estrazione3 + "\t" + estrazione4);
+					System.out.println("Ã¨ uscito il numero " + estrazione3 + "\t" + estrazione4);
 
 					System.out.println();
 					if (estrazione3 == estrazione4) {
